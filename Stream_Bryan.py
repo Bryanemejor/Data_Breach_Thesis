@@ -36,6 +36,10 @@ if city=='AL':
         AL =0
 elif city=='CA':
         AL==0
+elif city=='CO':
+        AL==0
+elif city=='CT':
+        AL==0
 elif city=='AK':
         AK =1
 
