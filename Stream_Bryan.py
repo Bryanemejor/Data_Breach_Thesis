@@ -34,6 +34,8 @@ method = st.selectbox(
     
 if city=='AL':
         AL =0
+elif city=='CA'
+        AL==0
 elif city=='AK':
         AK =1
 
@@ -42,7 +44,7 @@ else:
  
       
 if st.button('Click to Predict'):        
-    X = pd.DataFrame({'AL':[AL], 
+    X = pd.DataFrame({'AL':[AL, CA], 
                       'AK':[AK], 
                       'AZ':[AZ]
                        
