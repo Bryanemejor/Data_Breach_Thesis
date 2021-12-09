@@ -42,7 +42,7 @@ else:
  
       
 if st.button('Click to Predict'):        
-    X = pd.DataFrame({'city':[AL, AK, AZ, AR, CA], 
+    X = pd.DataFrame({'city':[AL], 
                       'city':[AK], 
                       'city':[AZ]
                        
