@@ -13,7 +13,7 @@ import joblib
 
 st.markdown('Data Breach Classification')
 
-cat_list = ['AL', 'AK', 'AZ']  
+cat_list = ('AL', 'AK', 'AZ')
 
 for i in cat_list:
     exec("%s = %d" % (i,0)) 
