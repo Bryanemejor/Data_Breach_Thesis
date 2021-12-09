@@ -13,7 +13,7 @@ import joblib
 
 st.markdown('Data Breach Classification')
 
-cat_list = ['city', 'cause', 'method']
+cat_list = ['AL', 'AK', 'AZ']
 
 for i in cat_list:
     exec("%s = %d" % (i,0)) 
@@ -43,8 +43,8 @@ else:
       
 if st.button('Click to Predict'):        
     X = pd.DataFrame({'city':[AL], 
-                      'cause':[Disclosure], 
-                      'method':[Hacking]
+                      'city':[AK], 
+                      'city':[AZ]
                        
                      })
     
