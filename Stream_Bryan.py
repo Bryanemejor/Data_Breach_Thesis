@@ -23,11 +23,11 @@ city = st.selectbox(
         ('AL', 'AK', 'AZ', 'AR', 'CA', 'CO', 'CT', 'DE', 'DC', 'FL', 'GA', 'HI', 'ID', 'IL', 'IN', 'IA', 'KS', 'KY', 'LA', 'ME', 'MD', 'MA', 'MI', 'MN', 'MS', 'MO', 'MT', 'NE', 'NV', 'NH', 'NJ', 'NM', 'NY', 'NC', 'ND', 'OH', 'OK', 'OR', 'PA', 'RI', 'SC', 'SD', 'TN', 'TX', 'UT', 'VT', 'WA', 'WV', 'WI', 'WY'))
 
 cause = st.selectbox(
-    'Please Cause City',
+    'Please Select Cause of Breach',
         ('Disclosure', 'Disposal', 'Exposure', 'IT Incident', 'loopholes', 'Vulnerability'))
 
 method = st.selectbox(
-    'Please Cause City',
+    'Please Method of Breach ',
         ('Hacking', 'Unauthorized Access', 'Paper Data'))
 
 
