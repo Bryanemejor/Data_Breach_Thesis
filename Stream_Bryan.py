@@ -50,7 +50,7 @@ if st.button('Click to Predict'):
     
   
         
-    model =joblib.load('Data_Breach_Thesis/lsvm_multi.pkl')
+    model =joblib.load('lsvm_multi.pkl')
     
     Y = model.predict(X)
     
