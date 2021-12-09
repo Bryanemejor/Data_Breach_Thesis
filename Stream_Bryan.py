@@ -44,7 +44,7 @@ else:
  
       
 if st.button('Click to Predict'):        
-    X = pd.DataFrame({'AL':[AL, CA], 
+    X = pd.DataFrame({'AL':[AL], 
                       'AK':[AK], 
                       'AZ':[AZ]
                        
