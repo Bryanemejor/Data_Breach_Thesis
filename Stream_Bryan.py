@@ -34,12 +34,7 @@ method = st.selectbox(
     
 if city=='AL':
         AL =0
-elif city=='CA':
-        AL==1
-elif city=='CO':
-        AL==2
-elif city=='CT':
-        AL==3
+
 elif city=='AK':
         AK =1
 
