@@ -71,7 +71,7 @@ if st.button('Click to Predict'):
     else:
         st.write('The impact of data breach in', city, 'is unknown')
     
-
+    st.success('Your Target is {}'.format(Y))
    
 
 
